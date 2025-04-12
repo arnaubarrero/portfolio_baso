@@ -108,7 +108,7 @@ const Navbar = () => {
                 <div className="flex justify-between h-16 items-center">
                     <div className="flex-shrink-0">
                         <span>
-                            Last modification: 03/2025
+                            Last modification: 2025
                         </span>
                     </div>
 

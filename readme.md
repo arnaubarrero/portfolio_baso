@@ -16,9 +16,6 @@ To run this project locally, follow these steps:
 
 ```bash
 $ git clone https://github.com/arnaubarrero/portfolio_baso.git
-
 $ cd ./aplicacio/
-
 $ npm install
-
 $ npm run dev
