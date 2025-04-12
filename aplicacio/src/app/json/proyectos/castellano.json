@@ -1,0 +1,35 @@
+{
+    "titulo": "Proyectos",
+    "proyectos": [
+        {
+            "titulo": "Clossse | Bitcoin Wallet",
+            "descripcion": "Aplicación web en la que al usuario se le asigna una dirección pública y una privada, y con ella puede interactuar en la red de Bitcoin con un nodo propio de forma anónima.\nAcciones destacadas: Enviar, recibir, listado de amigos rápidos.",
+            "boton": "Ver más",
+            "enlace": "#",
+            "github": "https://github.com/arnaubarrero/clossse-btc"
+        },
+        {
+            "titulo": "HolaBarri | Comercio local",
+            "descripcion": "Aplicación para la promoción de comercios locales, en la que los comercios pueden publicar sus productos, y los clientes, con la gestión automática de coordenadas, verán los comercios de barrio más cercanos para realizar compras.\nAcciones destacadas: Comprar productos, vender productos, mostrar en un mapa real con las coordenadas del comercio cuáles son los que tengo más cerca.",
+            "boton": "Ver más",
+            "enlace": "#",
+            "github": "#",
+            "video": "<iframe width='560' height='315' src='https://www.youtube.com/embed/4oOecPwpfkM' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+        },
+        {
+            "titulo": "AturApp",
+            "descripcion": "Aplicación destinada a reducir el acoso escolar mediante un sociograma, mapa de calor y estadísticas de diferentes turnos, secciones y cursos.\nAcciones destacadas: Botón de SOS en el que interactúas con un svg y dices lo que está pasando y dónde, chat de emergencia con sockets, y sociograma real con usuarios de las diferentes clases.",
+            "boton": "Ver más",
+            "enlace": "#",
+            "github": "#"
+        },
+        {
+            "titulo": "Cinema",
+            "descripcion": "Aplicación simulación de un cinema, en la que el usuario puede ver las películas en cartelera y comprar entradas en tiempo real. Cuando se seleccionan butacas, se puede ver cómo otras personas las están reservando en vivo. Incluye un panel de control.\nAcciones destacadas: Poder reservar butacas, ver en tiempo real cómo la gente compra butacas en esa misma sala, panel de administración.",
+            "boton": "Ver más",
+            "enlace": "#",
+            "github": "#",
+            "video": "<iframe width='560' height='315' src='https://www.youtube.com/embed/OZU7VOw_o-Y' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+        }
+    ]
+}

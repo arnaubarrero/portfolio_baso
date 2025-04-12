@@ -1,0 +1,35 @@
+{
+    "titulo": "Projects",
+    "proyectos": [
+        {
+            "titulo": "Clossse | Bitcoin Wallet",
+            "descripcion": "Web application where the user is assigned a public and private address, and with it can interact on the Bitcoin network with their own node anonymously.\nFeatured actions: Send, receive, quick friends list.",
+            "boton": "View more",
+            "enlace": "#",
+            "github": "https://github.com/arnaubarrero/clossse-btc"
+        },
+        {
+            "titulo": "HolaBarri | Local commerce",
+            "descripcion": "Application for the promotion of local businesses, where businesses can publish their products, and customers, with automatic coordinate management, will see the nearest neighborhood businesses to make purchases.\nFeatured actions: Buy products, sell products, display on a real map with the business coordinates which ones are closest to me.",
+            "boton": "View more",
+            "enlace": "#",
+            "github": "#",
+            "video": "<iframe width='560' height='315' src='https://www.youtube.com/embed/4oOecPwpfkM' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+        },
+        {
+            "titulo": "AturApp",
+            "descripcion": "Application aimed at reducing school bullying through a sociogram, heat map and statistics of different shifts, sections and courses.\nFeatured actions: SOS button where you interact with an svg and say what's happening and where, emergency chat with sockets, and real sociogram with users from different classes.",
+            "boton": "View more",
+            "enlace": "#",
+            "github": "#"
+        },
+        {
+            "titulo": "Cinema",
+            "descripcion": "Cinema simulation application where the user can see movies currently showing and buy tickets in real time. When seats are selected, you can see how other people are reserving them live. Includes a control panel.\nFeatured actions: Reserve seats, see in real time how people buy seats in that same room, admin panel.",
+            "boton": "View more",
+            "enlace": "#",
+            "github": "#",
+            "video": "<iframe width='560' height='315' src='https://www.youtube.com/embed/OZU7VOw_o-Y' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+        }
+    ]
+}

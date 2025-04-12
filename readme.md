@@ -1,1 +1,0 @@
-Arnau Barrero portfolio's

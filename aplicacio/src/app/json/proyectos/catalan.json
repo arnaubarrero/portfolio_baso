@@ -1,0 +1,35 @@
+{
+    "titulo": "Projectes",
+    "proyectos": [
+        {
+            "titulo": "Clossse | Bitcoin Wallet",
+            "descripcion": "Aplicació web en la que a l'usuari se li assigna una adreça pública i una privada, i amb ella pot interactuar a la xarxa de Bitcoin amb un node propi de forma anònima.\nAccions destacades: Enviar, rebre, llistat d'amics ràpids.",
+            "boton": "Veure més",
+            "enlace": "#",
+            "github": "https://github.com/arnaubarrero/clossse-btc"
+        },
+        {
+            "titulo": "HolaBarri | Comerç local",
+            "descripcion": "Aplicació per a la promoció de comerços locals, en la que els comerços poden publicar els seus productes, i els clients, amb la gestió automàtica de coordenades, veuran els comerços de barri més propers per realitzar compres.\nAccions destacades: Comprar productes, vendre productes, mostrar en un mapa real amb les coordenades del comerç quins són els que tinc més a prop.",
+            "boton": "Veure més",
+            "enlace": "#",
+            "github": "#",
+            "video": "<iframe width='560' height='315' src='https://www.youtube.com/embed/4oOecPwpfkM' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+        },
+        {
+            "titulo": "AturApp",
+            "descripcion": "Aplicació destinada a reduir l'assetjament escolar mitjançant un sociograma, mapa de calor i estadístiques de diferents torns, seccions i cursos.\nAccions destacades: Botó de SOS en el que interactues amb un svg i dius el que està passant i on, xat d'emergència amb sockets, i sociograma real amb usuaris de les diferents classes.",
+            "boton": "Veure més",
+            "enlace": "#",
+            "github": "#"
+        },
+        {
+            "titulo": "Cinema",
+            "descripcion": "Aplicació simulació d'un cinema, en la que l'usuari pot veure les pel·lícules en cartellera i comprar entrades en temps real. Quan es seleccionen butaques, es pot veure com altres persones les estan reservant en viu. Inclou un panell de control.\nAccions destacades: Poder reservar butaques, veure en temps real com la gent compra butaques en aquesta mateixa sala, panell d'administració.",
+            "boton": "Veure més",
+            "enlace": "#",
+            "github": "#",
+            "video": "<iframe width='560' height='315' src='https://www.youtube.com/embed/OZU7VOw_o-Y' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+        }
+    ]
+}

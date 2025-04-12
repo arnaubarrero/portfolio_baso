@@ -1,0 +1,28 @@
+{
+    "titulo": "Experiència Professional",
+    "experiencias": [
+        {
+            "titulo": "Manteniment i creació d'aplicacions web",
+            "empresa": "Reset Soluciones SL",
+            "fecha": "2024 - 2025",
+            "descripcion": "Desenvolupament i manteniment d'aplicacions web.",
+            "tecnologias": [
+                "Laravel",
+                "Vue.js",
+                "MySQL",
+                "PHP"
+            ]
+        },
+        {
+            "titulo": "Suport tècnic i administració de bases de dades",
+            "empresa": "IES La Mallola",
+            "fecha": "2022 - 2023",
+            "descripcion": "Responsable del manteniment integral dels equips informàtics del centre, abastant tant el maquinari com el programari. A més, disseny, implementació i administració d'una base de dades destinada a la gestió i seguiment dels equips.",
+            "tecnologias": [
+                "MySQL",
+                "PHP"
+            ]
+        }
+    ],
+    "tecnologiasUtilizadas": "Tecnologies utilitzades:"
+}

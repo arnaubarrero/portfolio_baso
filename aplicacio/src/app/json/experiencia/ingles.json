@@ -1,0 +1,28 @@
+{
+    "titulo": "Professional Experience",
+    "experiencias": [
+        {
+            "titulo": "Maintenance and development of web applications",
+            "empresa": "Reset Soluciones SL",
+            "fecha": "2024 - 2025",
+            "descripcion": "Development and maintenance of web applications.",
+            "tecnologias": [
+                "Laravel",
+                "Vue.js",
+                "MySQL",
+                "PHP"
+            ]
+        },
+        {
+            "titulo": "Technical support and database administration",
+            "empresa": "IES La Mallola",
+            "fecha": "2022 - 2023",
+            "descripcion": "In charge of comprehensive maintenance of the school's computer equipment, covering both hardware and software. Also designed, implemented, and managed a database for tracking and managing the equipment.",
+            "tecnologias": [
+                "MySQL",
+                "PHP"
+            ]
+        }
+    ],
+    "tecnologiasUtilizadas": "Technologies used:"
+}
