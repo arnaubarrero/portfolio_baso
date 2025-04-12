@@ -1,8 +1,10 @@
 'use client';
+import { useRouter } from 'next/navigation';
 import React, { useState, useEffect } from 'react';
 import { Menu, X, GraduationCap, Briefcase, Book, Github, Globe } from 'lucide-react';
 
 const Navbar = () => {
+    const router = useRouter();
     const [isOpen, setIsOpen] = useState(false);
     const [language, setLanguage] = useState('castellano');
     const [showLanguageDropdown, setShowLanguageDropdown] = useState(false);
@@ -129,7 +131,7 @@ const Navbar = () => {
                                 {showLanguageDropdown && (
                                     <div className="absolute right-0 mt-2 w-40 bg-white rounded-md shadow-lg py-1 z-50">
                                         {languageOptions.map((option) => (
-                                            <button key={option.code} onClick={() => handleLanguageChange(option.code)} className={`block px-4 py-2 text-sm w-full text-left ${language === option.code ? 'bg-gray-100' : 'hover:bg-gray-50' }`} >
+                                            <button key={option.code} onClick={() => handleLanguageChange(option.code)} className={`block px-4 py-2 text-sm w-full text-left ${language === option.code ? 'bg-gray-100' : 'hover:bg-gray-50'}`} >
                                                 {option.name}
                                             </button>
                                         ))}
@@ -137,9 +139,13 @@ const Navbar = () => {
                                 )}
                             </div>
                             {socialLinks.map((link, index) => (
-                                <a key={`social-${index}`} href={link.href} className="text-gray-700 hover:text-black transition-colors duration-200" >
+                                <button
+                                    key={`social-${index}`}
+                                    onClick={() => window.open('https://github.com/arnaubarrero/portfolio_baso', '_blank')}
+                                    className="text-gray-700 hover:text-black transition-colors duration-200"
+                                >
                                     {link.icon}
-                                </a>
+                                </button>
                             ))}
                         </div>
                     </div>
@@ -169,9 +175,9 @@ const Navbar = () => {
                         </div>
                         {languageOptions.map((option) => (
                             <button key={option.code} onClick={() => {
-                                    handleLanguageChange(option.code);
-                                    setIsOpen(false);
-                                }} className={`flex items-center space-x-2 px-3 py-2 rounded-md w-full text-left ${language === option.code ? 'bg-gray-100' : 'hover:bg-gray-50' }`} >
+                                handleLanguageChange(option.code);
+                                setIsOpen(false);
+                            }} className={`flex items-center space-x-2 px-3 py-2 rounded-md w-full text-left ${language === option.code ? 'bg-gray-100' : 'hover:bg-gray-50'}`} >
                                 <span>{option.name}</span>
                             </button>
                         ))}
